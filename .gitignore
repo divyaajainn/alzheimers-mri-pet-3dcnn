@@ -1,0 +1,7 @@
+dataset/
+*.dcm
+*.nii
+*.nii.gz
+__pycache__/
+*.pth
+*.pt
