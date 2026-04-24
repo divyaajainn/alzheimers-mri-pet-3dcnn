@@ -1,17 +1,26 @@
-# Alzheimer MRI-PET Multimodal Classification
+# Multimodal Alzheimer’s Disease Classification (MRI + PET)
 
-This project uses 3D CNN with late fusion for Alzheimer's Disease classification using MRI and PET scans.
+This project implements a 3D CNN-based multimodal framework for Alzheimer’s Disease classification using MRI and PET scans.
 
-## Final Model
-- Multimodal 3D CNN
-- Late Fusion (MRI + PET)
-- Classification: CN, MCI, AD
+## Approach
+- MRI and PET processed separately
+- Late Fusion architecture
+- 3D CNN for volumetric feature extraction
 
 ## Dataset
-ADNI dataset used (not uploaded due to size)
+ADNI dataset (not included due to size constraints)
+
+- 73 subjects
+- 90 MRI-PET pairs
+
+## Models Included
+- Baseline 3D CNN
+- Attention 3D CNN (experiment)
+- GAN (experiment)
+- Final Late Fusion Model
 
 ## Result
-~72% validation accuracy
+Final model achieves ~72% validation accuracy.
 
 ## Note
-Update dataset paths before running
+Update dataset paths before running the code.
